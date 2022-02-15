@@ -1,0 +1,41 @@
+.row{
+
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.row_imagemovie{
+  object-fit: contain;
+  width: 100%;  
+  max-height:100px;
+  transition:transform 450ms;
+  margin-right: 8px;
+
+}
+
+.row_movie{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.row_movie::-webkit-scrollbar{
+    display: none;
+}
+
+.row_imagemovie:hover{
+    transform: scale(1.10);
+  
+}
+.row_imagemovielarge{
+
+    max-height: 250px;
+
+}
+
+row_imagemovielarge:hover{
+    transform: scale(1.12);
+  
+}
